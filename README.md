@@ -1,1 +1,1 @@
-# argocd-services
+# argocd-manifests
