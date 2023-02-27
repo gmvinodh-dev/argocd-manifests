@@ -1,0 +1,24 @@
+{
+  "apiVersion": "v1",
+  "kind": "Service",
+  "metadata": {
+    "name": "nginx-service-new",
+    "labels": {
+      "app": "nginx-new"
+    }
+  },
+  "spec": {
+    "selector": {
+      "app": "nginx-new"
+    },
+    "ports": [
+      {
+        "name": "http",
+        "port": 80,
+        "targetPort": 80
+      }
+    ],
+    "type": "ClusterIP"
+  }
+}
+
