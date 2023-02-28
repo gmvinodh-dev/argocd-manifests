@@ -13,7 +13,7 @@ spec:
         url: https://172.31.17.230:6443
   template:
     metadata:
-      name: my-nginx-application-from-appset
+      name: '{{cluster}}-my-nginx-application-from-appset'
       namespace: argocd
     spec:
       project: default
