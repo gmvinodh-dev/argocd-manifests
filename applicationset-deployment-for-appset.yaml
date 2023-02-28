@@ -22,7 +22,7 @@ spec:
         targetRevision: HEAD
         path: deployment-for-appset
       destination:
-        server: "{{url}}"
+        server: "{{cluster}}"
         namespace: myappset
 
       syncPolicy:
