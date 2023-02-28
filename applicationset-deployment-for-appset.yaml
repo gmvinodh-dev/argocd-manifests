@@ -2,12 +2,13 @@ apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
 metadata:
   name: nginx-appset
+  namespace: argocd
 spec:
   generators:
-    - list:
+  - list:
       elements:
-        - cluster: in-cluster
-          url: https://kubernetes.default.svc
+      - cluster: in-cluster
+        url: https://kubernetes.default.svc
       # - cluster: kubernetes-admin-2@kubernetes
       # url: https://kubernetes.default.svc
   template:
