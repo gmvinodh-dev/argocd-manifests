@@ -1,0 +1,15 @@
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: my-secret
+  namespace: test-sealed-secret-1
+spec:
+  encryptedData:
+    username: AgA5WOVjAtPGi1+WPDUnmg44ZK1QJPUZApJ5CnU3yWu2bq761CbEzr1GEJpwkVrUyPYU43UexHIn165FFaetpmCyEDLlTbMysMu4hB/9/OUarohJ6xXzFoCPPhT4LnGvNJZNEHxx0WyfgN1jlw8W6Ghadi0qWal/D71jV0vZcmrzNFn6UUMOcnpMJ6lOaIIkxkHzHNZciuEWTtguL8zaMoKMeO57G+LjHQbdXIBFQXJT0xgp+0uW8h3FLAUNEO+hM4uyIpB9UYwU60xVRLx87W1Wr+V/mFaft0bH7YPOvhmuYhaLblk4boxGqc/nvg0ujcmJ80PIcdkxc/iS+s8zfZEkWDRPdceIVuOR4DtfiLRSFG+jMetFFOOkE93WpzAofySdB5aORbCi+m2mSME1rS1E674kHE4esaSOAT3Ps2ubMH550yur7/7cg9DnuLNBlWwxFZKO+DeP4S5MJYrfwSX3pMXck2sPPQrw16xLtBa+niPMUeW55Vm4LJhefHJ7Gzsc5zr8G8brNDmTHgtSRsL36pwHYHR4Jjf/bbznIb9sO0ChVYGo/U+fdGWZqREYgrefKvIfQnbTCxTGzNxqFcsmhb4VCGlXaFTvRaAIvN+4kJP9XuRt8efrwfCmetuhCb5qqnceL3sY5TQPEbuol0w6uLH0hwkKNObOfP/lCL6Kulb79oZr0TlKxqSS1e1fb2lXP9mFgGTXoKo=
+  template:
+    data: null
+    metadata:
+      creationTimestamp: null
+      name: my-secret
+      namespace: test-sealed-secret-1
